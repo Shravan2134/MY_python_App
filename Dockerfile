@@ -2,7 +2,7 @@
 FROM python:3.9-slim
 
 # Set the working directory in the container
-WORKDIR /app
+WORKDIR /MY_python_app
 
 # Copy the backend and frontend folders into the container
 COPY . /backend
