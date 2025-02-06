@@ -33,6 +33,3 @@ jobs:
             context: .
             push: True
             tags: shravan2134/my_python_app:latest
-
-                  
-          
