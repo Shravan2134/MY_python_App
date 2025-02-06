@@ -36,6 +36,7 @@ jobs:
         - name: Build and push to Docker hub
           uses: docker/build-push-action@v2
           with:
-            context: .
+            context: ./app
+            file: ./app/dockerfile
             push: True
             tags: shravan2134/my_python_app:latest
